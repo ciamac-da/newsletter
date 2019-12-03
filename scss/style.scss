@@ -39,7 +39,8 @@ body {
   color: black;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  background-color: rgba(0,0,0,0.5);
+  background-color: white;
+  border-radius: 5px;
 }
 form {
   border: 3px solid #f1f1f1;
@@ -50,8 +51,12 @@ form {
 }
 
 .container {
-  padding: 21px;
+  padding: 20px;
   background-color: #f1f1f1;
+}
+#main{
+  width: 1600px;
+  height: 1600px;
 }
 
 input[type=text], input[type=submit] {
@@ -60,6 +65,8 @@ input[type=text], input[type=submit] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 5px;
+
 }
 
 
@@ -67,6 +74,7 @@ input[type=submit] {
   background-color:blue;
   color: white;
   border: none;
+  border-radius: 5px;
 }
 
 input[type=submit]:hover {
@@ -77,8 +85,8 @@ h2{
   display: flex;
   justify-content: center;
 }
-.x{
+#x{
   display: flex;
   justify-content: flex-end;
-  font-size: 35px;
+  font-size: 25px;
 }

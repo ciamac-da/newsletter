@@ -37,7 +37,8 @@ body {
   color: black;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 5px;
 }
 
 form {
@@ -48,25 +49,29 @@ form {
 }
 
 .container {
-
+  padding: 20px;
   background-color: #f1f1f1;
 }
-#main{
+
+#main {
   width: 1600px;
-  height:1600px;
+  height: 1600px;
 }
+
 input[type=text], input[type=submit] {
   width: 100%;
   padding: 12px;
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  border-radius: 5px;
 }
 
 input[type=submit] {
   background-color: blue;
   color: white;
   border: none;
+  border-radius: 5px;
 }
 
 input[type=submit]:hover {
@@ -80,10 +85,9 @@ h2 {
 }
 
 #x {
-  
   display: flex;
   justify-content: flex-end;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
