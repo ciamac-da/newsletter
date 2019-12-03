@@ -29,7 +29,7 @@ body {
   }
 }
 #text {
-  display: block;
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -51,7 +51,10 @@ form {
 
   background-color: #f1f1f1;
 }
-
+#main{
+  width: 1600px;
+  height:1600px;
+}
 input[type=text], input[type=submit] {
   width: 100%;
   padding: 12px;
@@ -76,7 +79,8 @@ h2 {
   justify-content: center;
 }
 
-.x {
+#x {
+  
   display: flex;
   justify-content: flex-end;
   font-size: 35px;

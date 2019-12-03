@@ -1,13 +1,21 @@
 var  button = document.querySelector("#overlay")
 var newsletter = document.querySelector("#text")
-const close = document.querySelector("span.x")
+const close = document.querySelector("#main")
+const x = document.querySelector('span#x')
 const inputMail = document.querySelector(".input")
 
 
-console.log(button)
+
 button.addEventListener("click",() =>{
       newsletter.style.display = 'block';
+      document.body.style.background = 'grey';
+      
 })
-close.addEventListener("click",()=>{
-      newsletter.style.display = "none";
+close.addEventListener("click",(event)=>{
+
+      console.log(event.target.id)
+      if(event.target.id=='main'||event.target.id == 'x'){ 
+             newsletter.style.display = 'none';
+      document.body.style.background = '#fff';}
+    
 })    
