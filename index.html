@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Newsletter</title>
   </head>
-  <body>
+  <body onload="myFunction()">
     
     <div class="navbar">
       <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
@@ -22,6 +22,7 @@
               <form action="/action_page.php"  id="text">
                 <div class="container">
                   <span id="x">×</span>
+             
                   <h2>Newsletter bestellen</h2>
                 </div>
               
@@ -33,6 +34,9 @@
                   <input type="submit" value="Subscribe">
                 </div>
               </form>
+            <button class="fileButton" onclick="upload()"> Upload Files</button>
+             <input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+             <p id="demo"></p>
 
             </div>   
             

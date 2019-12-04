@@ -80,10 +80,24 @@ h2 {
 }
 
 #x {
-  
+ 
+  width: 30ox;
+  float:right;
   display: flex;
   justify-content: flex-end;
   font-size: 35px;
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#demo{
+  display: none;
+  width: 30em;
+  border: 1px solid #050f0e;
+}
+#myFile{
+  display: none;
+  margin: 1%;
+  width: 30em;
+  border: 1px solid #050f0e;
+}
