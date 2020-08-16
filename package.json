@@ -1,0 +1,20 @@
+{
+  "name": "newsletter-overlay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "newsletter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciamac-da/newsletter-overlay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciamac-da/newsletter-overlay/issues"
+  },
+  "homepage": "https://github.com/ciamac-da/newsletter-overlay#readme"
+}
